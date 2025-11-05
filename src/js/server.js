@@ -4,9 +4,9 @@ const googleTrends = require('google-trends-api');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = "9455fa9a233f46f290770aa1018c93e6"; // вставьте ваш ключ
+const API_KEY = "9455fa9a233f46f290770aa1018c93e6"; 
 
-app.use(express.static("dist")); // Добавь эту строку
+app.use(express.static("dist")); 
 
 // Кастомные новости
 const customNews = [
